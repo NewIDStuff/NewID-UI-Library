@@ -10,3 +10,27 @@ To get started, you need to boot the **NewID UI Library**. Add the following lin
 
 ```lua
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ToastStuff/123/refs/heads/main/wer/damn.lua"))()
+
+## Making The Window
+
+```lua
+Library.NewWindow("PrisonLife Script")
+
+## Making Buttons
+
+```lua
+Library.NewButton("Example Button", function()
+    --Function Here
+end)
+
+## Adding Toggles
+
+```lua
+Library.NewToggle("Kill All", function(state)
+    if state then
+        -- On Function
+    else
+        -- Off Function
+    end
+end)
+
