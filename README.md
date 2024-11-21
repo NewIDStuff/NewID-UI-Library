@@ -22,7 +22,7 @@ Library.NewWindow("Title Text Here")
 
 ```lua
 Library.NewButton("Text Here", function()
-    --Function Gere
+    --Function Here
 end)
 ```
 
