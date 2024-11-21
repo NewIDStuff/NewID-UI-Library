@@ -10,7 +10,8 @@ To get started, you need to boot the **NewID UI Library**. Add the following lin
 
 
 ```lua
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/NewIDStuff/NewID-UI-Library/refs/heads/main/NewID-Ui-Library-Loader.lua"))() ```
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/NewIDStuff/NewID-UI-Library/refs/heads/main/NewID-Ui-Library-Loader.lua"))()
+```
 
 test
 
