@@ -13,5 +13,22 @@ To get started, you need to boot the **NewID UI Library**. Add the following lin
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/NewIDStuff/NewID-UI-Library/refs/heads/main/NewID-Ui-Library-Loader.lua"))()
 ```
 
-test
+```lua
+Library.NewButton("Text Here", function()
+    --Function Gere
+end)
+```
 
+```lua
+Library.NewToggle("Text Here", function(state)
+    if state then
+        -- On Function
+    else
+        -- Off Function
+    end
+end)
+```
+
+```lua
+Library.NewDivider()
+```
