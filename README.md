@@ -1,1 +1,12 @@
-# NewID-UI-Library
+# NewID UI Library
+
+Welcome to **NewID UI Library**! This library provides a simple and flexible way to create windows, buttons, toggles, and other UI elements for your game. Below is a complete guide to get you started.
+
+---
+
+## Booting the Library
+
+To get started, you need to boot the **NewID UI Library**. Add the following line of code to your script to load and initialize the library:
+
+```lua
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/ToastStuff/123/refs/heads/main/wer/damn.lua"))()
