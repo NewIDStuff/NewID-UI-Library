@@ -6,18 +6,28 @@ Welcome to **NewID UI Library**! This library provides a simple and flexible way
 
 ## Booting the Library
 
-To get started, you need to boot the **NewID UI Library**. Add the following line of code to your script to load and initialize the library:
-
 
 ```lua
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/NewIDStuff/NewID-UI-Library/refs/heads/main/NewID-Ui-Library-Loader.lua"))()
 ```
+
+## Create The Window
+
+```lua
+Library.NewWindow("Title Text Here")
+```
+
+## Creating Buttons
+
 
 ```lua
 Library.NewButton("Text Here", function()
     --Function Gere
 end)
 ```
+
+## Creating Toggles
+
 
 ```lua
 Library.NewToggle("Text Here", function(state)
@@ -28,6 +38,9 @@ Library.NewToggle("Text Here", function(state)
     end
 end)
 ```
+
+## Creating Dividers
+
 
 ```lua
 Library.NewDivider()
