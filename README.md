@@ -1,6 +1,6 @@
 # NewID UI Library
 
-Welcome to **NewID UI Library**! This library provides a simple and flexible way to create windows, buttons, toggles, and other UI elements for your game. Below is a complete guide to get you started.
+Welcome to **NewID UI Library**! This library provides a simple and flexible way to create windows, buttons, toggles, and other UI elements for your roblox script hub. Below is a complete guide to get you started.
 
 ---
 
