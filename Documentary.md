@@ -45,3 +45,9 @@ end)
 ```lua
 Library.NewDivider()
 ```
+
+## Creating Spaces
+This Is Used To Add Empty Spaces So You Can Put A Button Under It
+```lua
+Library.NewSpace()
+```
